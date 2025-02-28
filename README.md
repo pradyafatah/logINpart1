@@ -50,13 +50,13 @@ def hitung_biaya_pengiriman(berat, jarak, express=False, member=False):
     if member:
         biaya *= 0.9  # Diskon 10%
     return int(biaya)
-```
+
 if __name__ == "__main__":
     berat = float(input("Masukkan berat paket (kg): "))
     jarak = float(input("Masukkan jarak pengiriman (km): "))
     express = input("Apakah ingin layanan express? (y/n): ").strip().lower() == 'y'
     member = input("Apakah Anda member? (y/n): ").strip().lower() == 'y'
-    
+  ```  
     biaya = hitung_biaya_pengiriman(berat, jarak, express, member)
     
     print("\n===============================")
