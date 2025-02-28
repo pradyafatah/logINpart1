@@ -38,7 +38,7 @@ biaya = hitung_biaya_pengiriman(6, 15, express=True, member=True)
 print(f"Total biaya pengiriman: Rp {biaya}")
 ```
 '''
-
+```
 def hitung_biaya_pengiriman(berat, jarak, express=False, member=False):
     biaya = 10000
     if berat > 5:
@@ -50,7 +50,7 @@ def hitung_biaya_pengiriman(berat, jarak, express=False, member=False):
     if member:
         biaya *= 0.9  # Diskon 10%
     return int(biaya)
-
+```
 if __name__ == "__main__":
     berat = float(input("Masukkan berat paket (kg): "))
     jarak = float(input("Masukkan jarak pengiriman (km): "))
