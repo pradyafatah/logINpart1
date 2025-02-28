@@ -79,8 +79,7 @@ if __name__ == "__main__":
     print(f"TOTAL BIAYA: Rp {subtotal}")
     print("===============================")
 ```
-
-
+'''
 
 ### hasil
 ![image](https://github.com/user-attachments/assets/f51e8953-6e24-4d44-b8a0-ff5248014db8)
