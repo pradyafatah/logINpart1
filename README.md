@@ -17,22 +17,6 @@ Cara Penggunaan:
 2. Simpan script ini sebagai `hitung_biaya_pengiriman.py`.
 3. Jalankan script menggunakan Python dengan memanggil fungsi `hitung_biaya_pengiriman`.
 
-Publikasi ke GitHub:
---------------------
-1. Buat repository baru di GitHub.
-2. Clone repository ke komputer lokal.
-3. Tambahkan script ini ke dalam repository.
-4. Jalankan perintah berikut untuk mengunggah ke GitHub:
-
-   ```sh
-   git init
-   git add hitung_biaya_pengiriman.py
-   git commit -m "Tambah script hitung biaya pengiriman"
-   git branch -M main
-   git remote add origin <URL_REPOSITORY>
-   git push -u origin main
-   ```
-
 Dokumentasi Fungsi:
 -------------------
 ```python
