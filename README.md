@@ -1,5 +1,4 @@
-'''
-Hitung Biaya Pengiriman
+# Hitung Biaya Pengiriman
 =======================
 Script ini menghitung total biaya pengiriman berdasarkan berat paket, jarak pengiriman, jenis layanan (biasa atau express), serta status keanggotaan pelanggan (member atau non-member).
 
@@ -56,7 +55,8 @@ if __name__ == "__main__":
     jarak = float(input("Masukkan jarak pengiriman (km): "))
     express = input("Apakah ingin layanan express? (y/n): ").strip().lower() == 'y'
     member = input("Apakah Anda member? (y/n): ").strip().lower() == 'y'
-  ```  
+  ```
+## Hasil  
     biaya = hitung_biaya_pengiriman(berat, jarak, express, member)
     
     print("\n===============================")
@@ -80,6 +80,6 @@ if __name__ == "__main__":
     print("===============================")
 
 
-### hasil
+### Tampilan Hasil
 ![image](https://github.com/user-attachments/assets/f51e8953-6e24-4d44-b8a0-ff5248014db8)
 
