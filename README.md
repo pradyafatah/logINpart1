@@ -1,5 +1,5 @@
 # Hitung Biaya Pengiriman
-=======================
+
 Script ini menghitung total biaya pengiriman berdasarkan berat paket, jarak pengiriman, jenis layanan (biasa atau express), serta status keanggotaan pelanggan (member atau non-member).
 
 Case:
